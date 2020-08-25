@@ -56,7 +56,7 @@ body { margin: 0; }
 @media screen and (min-width: 750px){
   .leonardo .mask{
     display:flex;
-    width:100%;
+    width:50%;
   }
 
   .raphael ul{
@@ -65,11 +65,19 @@ body { margin: 0; }
     justify-content: space-between;
   }
 
-  .michelangelo{
+  .michelangelo .description{
     display:flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    justify-content: flex-end;
+    order:2;
+  }
+
+  .michelangelo .mask{
+    display:flex;
+    flex-direction: row;
     justify-content: center;
+    width:50%;
+    padding:50% 0;
   }
 
   .donatello ul{
