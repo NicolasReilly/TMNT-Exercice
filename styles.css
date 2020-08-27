@@ -55,8 +55,10 @@ body { margin: 0; }
 
 @media screen and (min-width: 750px){
   .leonardo .mask{
+    position:relative;
     display:flex;
     width:50%;
+    height:100%;
   }
 
   .raphael ul{
@@ -74,10 +76,8 @@ body { margin: 0; }
 
   .michelangelo .mask{
     display:flex;
-    flex-direction: row;
     justify-content: center;
     width:50%;
-    padding:50% 0;
   }
 
   .donatello ul{
